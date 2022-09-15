@@ -1,6 +1,13 @@
 /*Collaborator(s): Ishaan Varma
 What this file does: Has all the code to make the guessing game functional
 Date: 9/15/2022
+1. No global variables. (Global constants are all right.)
+
+2. No strings. Not ever. (You can use cstrings/character arrays, and the cstring and cctype libraries are okay. In fact, I recommend using strcmp and strlen in your projects.)
+
+3. You should include <iostream>, not stdio. (This applies more to C programmers.)
+
+4. You should avoid using a mouse when possible. Learn the shortcuts. If you ever work through a shell, you won't have a mouse available to you.
  */
 //adds the console input and output
 #include <iostream>
